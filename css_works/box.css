@@ -1,0 +1,16 @@
+#box1{
+    color: lightcoral;
+    background-color: darkblue;
+    height: 300px;
+    width: 200px;
+    border: yellowgreen solid;
+}
+
+#box2{
+    color: aliceblue;
+    background-color: blue;
+    height: 400px;
+    width: 100px;
+    border: red solid;
+
+}

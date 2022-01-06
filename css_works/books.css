@@ -1,0 +1,15 @@
+div{
+    background-color: lightblue;
+    width: 24%;
+    float: left;
+    border: solid black;
+    height: 465px;
+}
+
+div img{
+    width: 30%;
+    margin-left: 36%;
+}
+div h1{
+    text-align: center;
+}

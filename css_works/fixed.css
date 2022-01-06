@@ -1,0 +1,7 @@
+div{
+    width: 50px;
+    height: 30px;
+    background-color: tomato;
+    position: sticky;
+    top: 500px;
+}

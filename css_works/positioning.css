@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.parent{
+    background-color: cadetblue;
+    height: 500px;
+    width: 300px;
+    border: white solid 2px;
+    position: relative;
+}
+
+.child{
+    background-color: chartreuse;
+    height: 300px;
+    width: 200px;
+    border: white solid 2px;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}

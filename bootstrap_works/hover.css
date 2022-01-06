@@ -1,0 +1,36 @@
+#parent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#first{
+    width: 50%;
+}
+
+h1{
+    color: darkmagenta;
+}
+
+span{
+    color: rgb(211, 92, 211);
+}
+
+button{
+    background-color: darkmagenta;
+    color: white;
+    width: 180px;
+    height: 60px;
+    font-weight: 500;
+    border-radius: 40px;
+}
+
+button:hover{
+    background-color: white;
+    color: darkmagenta;
+}
+
+#child{
+    width: 1170px;
+    display: flex;
+    justify-content: space-evenly;
+}

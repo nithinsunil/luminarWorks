@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+
+.parent{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.child{
+    width: 24%;
+    height: 620px;
+    background-color: turquoise;
+    border: whitesmoke solid 2px;   
+}
+
+div img{
+    width: 50%; 
+    margin-left: 106px;   
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    padding-left: 10px;
+}
+
+h2{
+    padding-left: 10px;
+}

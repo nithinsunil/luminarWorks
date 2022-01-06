@@ -1,0 +1,44 @@
+#parent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#child{
+    width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+h5{
+    color: darkmagenta;
+    font-weight: 600;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#c1{
+    height: 555px;
+}
+
+#c2{
+    height: 555px;
+}
+
+#c3{
+    height: 555px;
+}
+
+button{
+    background-color: rgb(94, 6, 138);
+    color: white;
+    width: 123px;
+    height: 42px;
+    font-weight: 400;
+}
+
+p{
+    font-weight: 500;
+}

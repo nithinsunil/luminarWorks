@@ -1,0 +1,18 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color: darkblue;
+}
+
+p{
+    color: crimson;
+}
+
+#a1{
+    color: darkgreen;
+}
+
+.class1{
+    color: darkgoldenrod;
+}

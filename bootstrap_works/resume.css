@@ -1,0 +1,70 @@
+body{
+    background-color: whitesmoke;
+    /* font-family: 'EB Garamond', serif; */
+    /* font-family: 'Duru Sans', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+
+}
+
+#par{
+    display: flex;
+    background-color: black;
+    justify-content: space-evenly;
+    height: 1000px;
+}
+
+#child{
+    display: flex;
+    background-color: rgb(0, 59, 111);
+    width: 60%;
+
+
+}
+
+#child_1{
+    background-color: green;
+    width: 30%;
+    background-color: rgb(0, 59, 111);
+    color: white;
+    /* margin-left: 5px;
+    margin-top: 5px; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+#child_2{
+    background-color: whitesmoke;
+    margin-left: 8px;
+    /* margin-top: 76px; */
+    
+    
+}
+
+.sub{
+    background-color: rgb(1, 44, 86);
+    color: white;
+}
+
+span{
+    font-weight: 600;
+}
+
+#edu{
+
+    color: rgb(0, 59, 111);
+    font-size: 35px;
+}
+
+#int{
+
+    color: rgb(0, 59, 111);
+    font-size: 35px;
+    font-weight: 500;
+    
+}
+
+#name{
+    font-weight: 600;
+    letter-spacing: .8px;
+}

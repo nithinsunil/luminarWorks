@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+div h2{
+    text-align: center;
+}
+
+div{
+    width: 16%;
+    float: left;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+#rating{
+    border: white solid;
+    width: 300px;
+    height: px;
+    float: left;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#image{
+    height: fit-content;
+    width: 343px;
+}
+
+p{
+    padding-left: 20px;
+}

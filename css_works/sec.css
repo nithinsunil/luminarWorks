@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lobster&display=swap');
+h1{
+    color: cadetblue;
+}
+
+#a1{
+    color: chartreuse;
+}
+
+.class1{
+    color: cornflowerblue;
+}
+
+header{
+    background-color: darkgreen;
+}
+
+main{
+    background-color: darkgrey;
+}
+
+footer{
+    background-color: lightblue;
+}
+
+#p1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+
+#p2{
+    font-family: 'Lobster', cursive;
+}

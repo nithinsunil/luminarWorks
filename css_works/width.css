@@ -1,0 +1,16 @@
+div{
+    
+    width: 25%;
+    background-color: turquoise;
+    font-size: larger;
+    border: solid black;
+    float: left;
+}
+
+div img{
+    width: 50%;
+}
+
+img{
+    width: 75%;
+}
