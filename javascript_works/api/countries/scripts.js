@@ -2,7 +2,8 @@ function fetchCountryData(){
     let countryName = country_name.value;
 
     fetch(`https://restcountries.com/v2/name/${countryName}?fullText=true`).
-    then(res=>res.json()).then(data=> populateValues(data))
+    then(res=>res.json())
+    .then(data=> populateValues(data))
     
    
 }
