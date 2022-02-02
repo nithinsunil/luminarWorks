@@ -14,4 +14,37 @@ export class DataService {
 
 
   constructor() { }
+
+  // register
+  register(uname: any, acno: any, password: any) {
+    let db = this.database
+    if (acno in db) {
+
+      return false
+    }
+    else {
+      db[acno] = {
+        acno, uname, password, balance: 0
+      }
+      return true
+    }
+  }
+
+  // login
+  login(acno: any, password: any) {
+    let db = this.database
+    if (acno in db) {
+      if (password == db[acno]["password"]) {
+        return true
+      }
+      else {
+        alert("Invalid password")
+        return false
+      }
+    }
+    else {
+      alert("invalid account number")
+      return false
+    }
+  }
 }
